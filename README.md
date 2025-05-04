@@ -4,10 +4,12 @@ Este repositorio contiene dos versiones de una misma aplicación web desarrollad
 
 ## 📂 Contenido del repositorio
 
+```text
 .
-├── broken-access-control-vulneracion/ # ❌ Versión vulnerable
-├── broken-access-control-arreglado/ # ✅ Versión corregida
-└── README.md # Este archivo
+├── broken-access-control-demo/          # ❌ Versión vulnerable
+├── broken-access-control-secure/        # ✅ Versión corregida
+└── README.md                            # Este archivo
+
 
 ## ❌ Versión vulnerable (`broken-access-control-vulneracion`)
 
