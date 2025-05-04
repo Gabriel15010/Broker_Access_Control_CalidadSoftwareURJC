@@ -5,15 +5,11 @@ Este repositorio contiene dos versiones de una misma aplicación web desarrollad
 ## 📂 Contenido del repositorio
 
 .
-├── broken-access-control-demo/ # ❌ Versión vulnerable
-├── broken-access-control-secure/ # ✅ Versión corregida
+├── broken-access-control-vulneracion/ # ❌ Versión vulnerable
+├── broken-access-control-arreglado/ # ✅ Versión corregida
 └── README.md # Este archivo
 
-markdown
-Copiar
-Editar
-
-## ❌ Versión vulnerable (`broken-access-control-demo`)
+## ❌ Versión vulnerable (`broken-access-control-vulneracion`)
 
 Esta versión simula una autenticación básica con usuarios fijos, pero no implementa ninguna **verificación de roles** ni controles en el backend para proteger las rutas sensibles.
 
@@ -30,7 +26,7 @@ Cualquier usuario autenticado puede acceder a la ruta `/admin`, independientemen
 
 > **Nota:** no se usan roles ni autenticación real. Solo se guarda el nombre de usuario en la sesión.
 
-## ✅ Versión segura (`broken-access-control-secure`)
+## ✅ Versión segura (`broken-access-control-arreglado`)
 
 Esta versión implementa una verificación de acceso al endpoint `/admin`, permitiendo el acceso **solo al usuario "admin"**.
 
