@@ -9,7 +9,7 @@ Este repositorio contiene dos versiones de una misma aplicación web desarrollad
 ├── broken-access-control-demo/          # ❌ Versión vulnerable
 ├── broken-access-control-secure/        # ✅ Versión corregida
 └── README.md                            # Este archivo
-
+```
 
 ## ❌ Versión vulnerable (`broken-access-control-vulneracion`)
 
@@ -44,6 +44,7 @@ Ambas versiones pueden ejecutarse con:
 ```bash
 ./mvnw spring-boot:run
 Asegúrate de ejecutar el comando dentro del directorio de cada versión (broken-access-control-demo o broken-access-control-secure).
+```
 
-Luego, accede a:
+Luego, en tu navegador accede a:
 👉 http://localhost:8080/
